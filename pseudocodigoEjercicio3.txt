@@ -1,0 +1,16 @@
+Inicio pseudocodigoEjercicio3
+	
+	Variable numero
+	Variable factorial = 1
+	Variable i
+	
+	Escribir "Ingrese un numero: "
+	Leer numero
+	
+	Desde i=1; hasta i<=numero; aumentar i = i + 1 hacer
+		factorial = factorial*i
+	FinDesde
+	
+	Escribir numero + "! es: " + factorial
+	
+Fin
